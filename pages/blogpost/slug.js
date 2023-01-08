@@ -14,7 +14,6 @@ const Slug = ({ myblog }) => {
         <a target={'/'} href='https://myanimelist.net/forum/?topicid=2052518' class="btn btn-primary"> Watch Anime</a>
     </div>
 }
-
 export default Slug;
 export async function getServerSideProps(context) {
     console.log(context.query.slug)
