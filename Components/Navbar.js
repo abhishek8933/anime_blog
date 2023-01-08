@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from "next/link"
 // Import Date from "./Date.js"
 {
   var days = 2;
