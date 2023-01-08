@@ -8,6 +8,7 @@ const Slug = ({ myblog }) => {
     const { param } = router.query;
     // {console.log(router.query.Slug)}
     return <div className='container ' style={{ 'margin-top': '40px' }}>
+        <img src="https://cdn.myanimelist.net/images/anime/1439/93480.jpg" className="card-img-top"  style={{'width':'150px' }}alt="..." />
         <h1>{myblog.title}</h1>
         <p>{myblog.content}
         </p>
