@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import blogs from "../data/blogs.json"
 // import { useEffect } from 'react'
+import Image from 'next/image'
 
 export default function Home({blogs}) {
 
@@ -12,7 +13,7 @@ export default function Home({blogs}) {
    { blogs.blogs.map((blog)=>{
 
     return  <div className="card mx-4 my-4" style={{ 'width': '18rem' }}>
-        <img src="https://cdn.myanimelist.net/images/anime/1439/93480.jpg" class="card-img-top" alt="..." />
+        <Image src="https://cdn.myanimelist.net/images/anime/1439/93480.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">{blog.title}</h5>
           <p class="card-text">{blog.content.substr(0,145)}</p>
