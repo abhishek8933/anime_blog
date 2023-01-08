@@ -11,7 +11,7 @@ const Slug = ({ myblog }) => {
         <h1>{myblog.title}</h1>
         <p>{myblog.content}
         </p>
-        <a target={'/'} href='https://myanimelist.net/forum/?topicid=2052518' class="btn btn-primary"> Watch Anime</a>
+        <a target={'/'} href='https://myanimelist.net/forum/?topicid=2052518' className="btn btn-primary"> Watch Anime</a>
     </div>
 }
 export default Slug;
